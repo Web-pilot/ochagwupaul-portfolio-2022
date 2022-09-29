@@ -9,7 +9,7 @@ html {
 }
 
 :root {
-    --primary-color: rgba(12, 38, 152, 0.672);
+    --primary-color: rgba(12, 38, 152, 1);
     --secondary-color: #ff0000b9;
     --alerternate-color: rgba(230, 243, 0, 0.652);
     --container-width: 1200px;
@@ -646,6 +646,7 @@ footer {
     height: 100%;
     border-radius: 50%;
 }
+
 @media screen and (max-width: 768px) {
     header {
         padding: 5px;
@@ -653,7 +654,7 @@ footer {
     .nav_item_container {
         display: block;
         height: 100vh;
-        background: var(--secondary-color);
+        background: red;
         position: fixed;
         right: 0px;
         width: 200px;
