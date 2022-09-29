@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ochagwu Paul Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="navbar">
+        <nav>
+            <div class="logo" id="logo">
+            <a href="#">
+                PROS<span>PEROUS</span>
+            </a>
+            </div>
+            <ul class="nav_item_container" id="sidebar">
+                <li>
+                    <!-- <input type="radio" name="nav_link" id="home" class="nav_link"> -->
+                    <a href="#home" class="nav_link active">Home</a>
+                </li>
+                <li>
+                    <!-- <input type="radio" name="nav_link" id="home" class="nav_link"> -->
+                    <a href="#about" class="nav_link">About</a>
+                </li>
+                <li><a href="#services" class="nav_link">Services</a></li>
+                <li><a href="#projects" class="nav_link">Projects</a></li>
+                <li><a href="#contact" class="nav_link">Contact</a></li>
+                <span class="close_menu" id="close_menu">
+                    X
+                </span>
+            </ul>
+        </nav>
+        <span class="open_menu" id="open_menu">
+            <img src="img/menu.png" alt="">
+        </span>
+
+    </header>
+
+    <main class="container_fluid hero_bg" id="home">
+       <div class="hero_section">
+        <div class="flex_hero_left">
+            <h5 class="title">WEBSITE & GRAPHICS DESIGNER</h5>
+            <h1 class="name">Ochagwu Paul <br /> <small>Prosperous</small></h1>
+            <p>
+                My determination to succeed is far greater than my fear of failure! That's why i keep on trying everyday against all odds.
+            </p>
+            <a href="#about" class="link_btn btn">Learn More</a>
+        </div>
+        <div class="flex_hero_right">
+            <img src="img/laptop.png" alt="">
+        </div>
+       </div>
+
+
+       <!-- About Me -->
+       <section class="container about" id="about">
+            <div class="about_container">
+                <div class="about_left_col">
+                    <img src="img/paul.jpg" alt="">
+                </div>
+                <div class="about_right_col">
+                    <h3 class="section_title">About Me</h3>
+                    <p class="about_desc">
+                        Creative graphic and website designer with innovative ideas and a uniques approach to visual. More than 1 year experience building website and creating awesome designs(Birthday Card, Banner, logo and just about any design reach to human imagination).
+                    </p>
+                    <p class="about_desc">
+                        I disturb whomever i like! I don't believe in impossibilities; trying always to create opporturnities from disappointment.
+                    </p>
+                    <p class="about_desc">
+                        My determination to succeed is far greater than my fear of failure! That's why i keep on trying everyday against all odds.
+                    </p>
+                    <strong class="me">I'm Reality</strong>
+                    <ul class="about_nav_buttons">
+                        <li>
+                            <input type="radio" name="about_me_button" id="skills" checked>
+                            <label for="skills">Skills</a></label>
+                        <li>
+                            <input type="radio" name="about_me_button" id="experience">
+                            <label for="experience">Experience</label>
+                        </li>
+                        <li>
+                            <input type="radio" name="about_me_button" id="education">
+                            <label for="education">Education</label>
+                        </li>
+                    </ul>
+                    <div class="about_details">
+                        <!--Details will be dropped here using jS  -->  
+                    </div>
+                </div>
+            </div>
+       </section>
+    </main>
+    <!-- Services -->
+    <section class="container services_container_fluid" id="services">
+        <h3 class="section_title">What Can I Offer?</h3>
+        <div class="services_container">
+            <div class="flex_item">
+                <h1>1</h1>
+                <h4>Website Design</h4>
+                <p>Build you website with me fast, scalable and less expensive</p>
+                <a href="#contact" class="btn-sm">Let's go!</a>
+            </div>
+            <div class="flex_item">
+                <h1>2</h1>
+                <h4>Graphic Design</h4>
+                <p>You graphics work, all in one place!</p>
+                <a href="#contact" class="btn-sm">Let's go!</a>
+            </div>
+            <div class="flex_item">
+                <h1>3</h1>
+                <h4>Instructor</h4>
+                <p>Teach you what you need to know to be a developer, in the most simplest way you could imagine</p>
+                <a href="#contact" class="btn-sm">Let's go!</a>
+            </div>
+            <div class="flex_item">
+                <h1>4</h1>
+                <h4>Typist</h4>
+                <p>I scratch my itchy fingers with keyboard. You've got some document to type?</p>
+                <a href="#contact" class="btn-sm">Let's go!</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- portfolio -->
+       <section class="container" style="display: flex; flex-direction: column; align-items: center;" id="projects">
+        <h3 class="section_title">Live Project</h3>
+       <div id="portfolio">
+
+       </div>
+       <span class="link_btn btn load_more_btn" id="load_more_btn">Load More...</span>
+       <span class="link_btn btn load_more_btn" id="view_few_btn">View Few</span>
+    </section>
+
+    <!-- Contact me -->
+    <section class="contact_me" id="contact">
+        <!-- <div class="contact_me_fixed">
+
+        </div> -->
+        <div class="contact_me_section">
+            <div class="flex_left">
+                <h3 class="section_title" id="difference_section_title">CONTACT ME</h3>
+                <h4>Anytime! Anyday!</h4>
+                <p>
+                    You can reach me on my social media handles, contact me through phone on <strong class="phone">+2348158099730</strong>
+                    <br />
+                    Or use the form to leave a message!
+                </p>
+                <div>
+                    <h6 class="follow_me_title">Follow Me on</h6>
+                    <hr />
+                    <a href="https://www.facebook.com/paul.ochagwuprosperous.com" target="_blank"><img src="img/facebook.png" alt="" class="social_icon"></a>
+                    <a href="https://www.twitter.com/Ochagwupaul" target="_blank"><img src="img/twitter.png" alt="" class="social_icon"></a>
+                    <a href="https://www.instagram.com/realityochagwu/" target="_blank"><img src="img/instagram.png" alt="" class="social_icon" ></a>
+                    <a href="mailto://ochagwupaul1@gmail.com" target="_blank"><img src="img/envelope.png" alt="" class="social_icon"></a>
+                </div>
+                <div >
+                    <a href="./img/ochagwu-paul-cv.jpg"  download class="link_btn">Download CV</a>
+                </div>
+            </div>
+            <div class="flex_right">
+                <form name="submit-to-google-sheet">
+                    <div class="form_group">
+                        <label for="name">Name</label>
+                        <input type="text" name="Name" id="name" placeholder="John Smith" class="form_control" required><br />
+                        <small class="form_error"></small>
+                    </div>
+                    <div class="form_group">
+                        <label for="email">Email</label>
+                        <input type="email" name="Email" id="email" placeholder="johnsmith@domain.com" class="form_control" required><br />
+                        <small class="form_error"></small>
+                    </div>
+                    <div class="form_group">
+                        <label for="message">Message</label>
+                        <textarea name="Message" id="" cols="30" rows="5" class="form_control" required></textarea><br />
+                        <small class="form_error"></small>
+                    </div>
+                    <div class="form_group">
+                       <input type="submit" value="Send" class="link_btn btn"><br />
+                       <small class="form_success" id="alert_message"></small>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <footer>
+            &copy; 2022 Ochagwu Paul Prosperous
+            <a href="#home" class="back-to-top-btn">Back to top</a>
+        </footer>
+    </section>
+
+  
+    <script src="script.js"></script>
+</body>
+</html>
