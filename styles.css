@@ -368,9 +368,9 @@ section {
 
 .services_container .flex_item {
     width: 24%;
-    margin: 3px;
+    margin: 10px;
     text-align: center;
-    background: var(--primary-color);
+    box-shadow: 0 0 15px -10px;
     padding: 5px;
     border-radius: 5px;
     line-height: var(--line-spacing);
@@ -394,7 +394,6 @@ section {
 .services_container .flex_item h1 {
    width: 25px;
    height: 25px;
-   background: var(--secondary-color);
    color: var(--primary-text-color);
    border-radius: 50%;
    display: flex;
@@ -497,7 +496,6 @@ section {
 .contact_me_section .flex_left,
 .contact_me_section .flex_right {
     width: 48%;
-    padding: 10px;
     line-height: var(--line-spacing);
 }
 
@@ -530,6 +528,7 @@ form {
     /* box-shadow: 0px 0px 15px -5px rgba(237, 237, 237, 0.5); */
     padding: 5px;
     width: 100%;
+    background: red;
 }
 
 form label {
@@ -587,6 +586,11 @@ form label {
         margin: 10px;
         opacity: 0.5;
     }
+    .contact_me_section .flex_left,
+    .contact_me_section .flex_right {
+    margin-top: 10px;
+
+}
 }
 
 footer {
