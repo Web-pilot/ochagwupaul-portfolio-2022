@@ -55,17 +55,17 @@ function displayExperience() {
         <li>
             <span class="experience_organizaton">JEEK COMPUTER CONSULT</span> <br />
             <span class="experience_position">Developer/Instructor</span> <br />
-            <small>Worked with Excel, Photocopy</small>
+            <small>Teach students how to code and build website</small>
         </li>
         <li>
             <span class="experience_organizaton">OGIDI-PAT COMPUTER BUSINESS CENTRE</span> <br />
             <span class="experience_position">Computer Operator</span><br />
-            <small>Worked with Excel, Photocopy</small>
+            <small>Computer related work; like typing, designs, spreadsheet etc.</small>
         </li>
         <li>
             <span class="experience_organizaton">NET-M SOLUTION </span> <br />
             <span class="experience_position">COMPUTER OPERATOR</span><br />
-            <small>Worked with Excel, Photocopy</small>
+            <small>Computer related work; like typing, designs, spreadsheet etc.</small>
         </li>
         </ul>
     `
@@ -96,18 +96,12 @@ function displayEducation() {
 }
 
 const workArray = [
-    {id: 1, img: "img/bg.jpg", title: "JAvascrip Citizen Database", link: "http://www.jscitizendatabase.netlify.app"},
-    {id: 2, img: "img/bg.jpg", title: "JAvascrip Citizen Database", link: "http://www.jscitizendatabase.netlify.app"},
-    {id: 3, img: "img/bg.jpg", title: "JAvascrip Citizen Database", link: "http://www.jscitizendatabase.netlify.app"},
-    {id: 4, img: "img/bg.jpg", title: "JAvascrip Citizen Database", link: "http://www.jscitizendatabase.netlify.app"},
-    {id: 5, img: "img/bg.jpg", title: "JAvascrip Citizen Database", link: "http://www.jscitizendatabase.netlify.app"},
-    {id: 6, img: "img/bg.jpg", title: "JAvascrip Citizen Database", link: "http://www.jscitizendatabase.netlify.app"},
-    {id: 1, img: "img/bg.jpg", title: "JAvascrip Citizen Database", link: "http://www.jscitizendatabase.netlify.app"},
-    {id: 2, img: "img/bg.jpg", title: "JAvascrip Citizen Database", link: "http://www.jscitizendatabase.netlify.app"},
-    {id: 3, img: "img/bg.jpg", title: "JAvascrip Citizen Database", link: "http://www.jscitizendatabase.netlify.app"},
-    {id: 4, img: "img/bg.jpg", title: "JAvascrip Citizen Database", link: "http://www.jscitizendatabase.netlify.app"},
-    {id: 5, img: "img/bg.jpg", title: "JAvascrip Citizen Database", link: "http://www.jscitizendatabase.netlify.app"},
-    {id: 6, img: "img/bg.jpg", title: "JAvascrip Citizen Database", link: "http://www.jscitizendatabase.netlify.app"}
+    {id: 1, img: "img/biblethelifemanual.PNG", title: "WORDPRESS: Blog Website", link: "http://www.biblethelifemanual.com"},
+    {id: 2, img: "img/csharpblog.JPG", title: "C# Blog Post Website", link: "http://blogpostappweb.azurewebsites.net"},
+    {id: 3, img: "img/citizendatabase.PNG", title: "JAVASCRIPT: Citizen Database", link: "https://jscitizendatabase.netlify.app"},
+    {id: 4, img: "img/bankingsystem.JPG", title: "REACTJS: ATM Functionality", link: "https://usereducerbankingsystem.netlify.app"},
+    {id: 5, img: "img/furnituresite.JPG", title: "JAVASCRIPT: furniture website", link: "https://ochagwufc.netlify.app"},
+    {id: 6, img: "img/clientlottery.JPG", title: "NODEJS: Still Under Construction", link: "http://clientlottery.herokuapp.com/account/login"}
 ]
 
 let sliceEnd = 4;
@@ -170,7 +164,6 @@ function setNavLinkToActive() {
                 link.classList.remove("active")
             })
             this.classList.add("active")
-            sideBar.style.transform = "translateX(100%)";
 
         })
     })
